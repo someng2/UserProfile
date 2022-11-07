@@ -16,6 +16,8 @@
 		3D616B6B29124A5D00592298 /* UserProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D616B6A29124A5D00592298 /* UserProfileTests.swift */; };
 		3D616B7529124A5D00592298 /* UserProfileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D616B7429124A5D00592298 /* UserProfileUITests.swift */; };
 		3D616B7729124A5D00592298 /* UserProfileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D616B7629124A5D00592298 /* UserProfileUITestsLaunchTests.swift */; };
+		3D616B8429124F3700592298 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D616B8329124F3700592298 /* User.swift */; };
+		3D616B8729124FE100592298 /* UserProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D616B8629124FE100592298 /* UserProfileCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3D616B7029124A5D00592298 /* UserProfileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserProfileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D616B7429124A5D00592298 /* UserProfileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileUITests.swift; sourceTree = "<group>"; };
 		3D616B7629124A5D00592298 /* UserProfileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3D616B8329124F3700592298 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3D616B8629124FE100592298 /* UserProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,9 @@
 				3D616B5329124A5C00592298 /* AppDelegate.swift */,
 				3D616B5529124A5C00592298 /* SceneDelegate.swift */,
 				3D616B5729124A5C00592298 /* ViewController.swift */,
+				3D616B8629124FE100592298 /* UserProfileCell.swift */,
 				3D616B5929124A5C00592298 /* Main.storyboard */,
+				3D616B8529124FC200592298 /* Model */,
 				3D616B5C29124A5D00592298 /* Assets.xcassets */,
 				3D616B5E29124A5D00592298 /* LaunchScreen.storyboard */,
 				3D616B6129124A5D00592298 /* Info.plist */,
@@ -125,6 +131,14 @@
 				3D616B7629124A5D00592298 /* UserProfileUITestsLaunchTests.swift */,
 			);
 			path = UserProfileUITests;
+			sourceTree = "<group>";
+		};
+		3D616B8529124FC200592298 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D616B8329124F3700592298 /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +272,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D616B8429124F3700592298 /* User.swift in Sources */,
+				3D616B8729124FE100592298 /* UserProfileCell.swift in Sources */,
 				3D616B5829124A5C00592298 /* ViewController.swift in Sources */,
 				3D616B5429124A5C00592298 /* AppDelegate.swift in Sources */,
 				3D616B5629124A5C00592298 /* SceneDelegate.swift in Sources */,
